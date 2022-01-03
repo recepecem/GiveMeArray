@@ -22,7 +22,7 @@ int main(int argc, char *argv[]){
     FILE *fptr = fopen("array.txt", "w");
     
     for (int i = 0; i < ARR_SIZ; ++i)
-        fprintf(fptr,"%d\n",array[i]);
+        fprintf(fptr,"%d,",array[i]);
  
     printf("\nsaved\n");
 
